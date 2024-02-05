@@ -1,4 +1,5 @@
 
+
 ## `Pharmaceutical Sales prediction Across Multiple Stores`
 ![Pharmacy-shop](https://user-images.githubusercontent.com/99503155/170320600-eafaf120-217c-404d-9539-dbe2e86f1e9d.jpg)
 
@@ -10,6 +11,7 @@ The data team identified factors such as promotions, competition, school and sta
 Your job is to build and serve an end-to-end product that delivers this prediction to analysts in the finance team. 
 
 ## Features and Discritions of the Data
+
  ### *Feature Dicriptions of the Data* ###
  
 
@@ -31,6 +33,7 @@ The following are descriptions of **Rossmann Pharmaceuticals** data set.
 - **`Promo2`** - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating
 - **`Promo2Since[Year/Week]`** - describes the year and calendar week when the store started participating in Promo2
 - **`PromoInterval`** - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+
 - The data for this challenge can be found https://www.kaggle.com/competitions/rossmann-store-sales/data.
 
 
