@@ -3,7 +3,7 @@
 ## `Pharmaceutical Sales prediction Across Multiple Stores`
 ![Pharmacy-shop](https://user-images.githubusercontent.com/99503155/170320600-eafaf120-217c-404d-9539-dbe2e86f1e9d.jpg)
 
-## The Overview
+## The Overview of the task
 The finance team of a Pharmaceuticals wants to forecast sales in all their stores across several cities six weeks ahead of time. Managers in individual stores rely on their years of experience as well as their personal judgment to forecast sales. 
 
 The data team identified factors such as promotions, competition, school and state holidays, seasonality, and locality as necessary for predicting the sales across the various stores.
@@ -14,7 +14,6 @@ Your job is to build and serve an end-to-end product that delivers this predicti
 
  ### *Feature Dicriptions of the Data* ###
  
-
 The following are descriptions of **Rossmann Pharmaceuticals** data set.
 - **`Id`** - an Id that represents a (Store, Date) duple within the test set
 - **`Store`** - a unique Id for each store
@@ -27,6 +26,7 @@ The following are descriptions of **Rossmann Pharmaceuticals** data set.
 - **`SchoolHoliday`** - indicates if the (Store, Date) was affected by the closure of public schools
 - **`StoreType`** - differentiates between 4 different store models: a, b, c, d
 - **`Assortment`** - describes an assortment level: a = basic, b = extra, c = extended. Read more about assortment here
+
 - **`CompetitionDistance`** - distance in meters to the nearest competitor store
 - **`CompetitionOpenSince[Month/Year]`** - gives the approximate year and month of the time the nearest competitor was opened
 - **`Promo`** - indicates whether a store is running a promo on that day
