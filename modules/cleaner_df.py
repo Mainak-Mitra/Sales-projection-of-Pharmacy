@@ -1,3 +1,41 @@
+# Import the numpy and pandas modules
+import numpy as np
+import pandas as pd
+# Import the get_logger function from the app_loggs module
+from app_loggs import get_logger
+
+# Create a logger object with the name "DfCleaner"
+my_logger = get_logger("DfCleaner")
+# Log a debug message that the cleaning module is loaded successfully
+my_logger.debug("Cleaning Module Loaded successfully!")
+
+# Define a class to clean pandas data frames
+class DfCleaner():
+    """
+        This class has functions for cleaning pandas data frames by removing duplicates,
+        dropping columns or rows and more.
+    """
+
+    # Initialize the class
+    def __init__(self):
+        pass
+
+    # Define a method to convert a list of labels to lowercase separated by underscore
+    def fixLabel(self, label: list) -> list:
+        """This method takes a list of labels and returns a list of labels in lower case, separated by underscore
+
+        Args:
+            label (list): a list of labels
+
+        Returns:
+            list: a list of labels in lower case, separated by underscore
+        """
+        # Strip any leading or trailing spaces from the label
+        label = label.strip()
+        # Replace any spaces, dots, or slashes with underscores
+        label = label.replace(' ', '_').replace('.', '').replace('/', '_')
+        # Return the label in lower case
+        return label.lower()
 
     def drop_duplicate(self, df: pd.DataFrame) -> pd.DataFrame:
         """drop duplicate rows
